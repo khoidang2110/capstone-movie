@@ -1,0 +1,54 @@
+.card .card-img {
+  position: relative;
+  z-index: 3;
+}
+
+.card .card-img img {
+  transition: all 0.5s;
+}
+
+.card:hover .card-img img {
+  transform: scale(1.2);
+}
+
+.card-img > div::after {
+  content: "";
+  position: absolute;
+  /* z-index: 2; */
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.2));
+}
+
+.card:hover .card-img > div::after {
+  opacity: 1;
+}
+
+.card-play-trailer {
+  display: none !important;
+}
+
+.card:hover .card-img .card-play-trailer {
+  display: block !important;
+}
+
+@media screen and (max-width: 350px) {
+  .card {
+    height: 200px !important;
+  }
+
+  .card .dsrc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .card .dsrc {
+    white-space: normal !important;
+  }
+}

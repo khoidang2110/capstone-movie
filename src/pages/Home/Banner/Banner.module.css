@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) {
+  .movie-banner .banner-img {
+    height: 70vh !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .movie-banner .banner-img {
+    height: 85vh !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .movie-banner .banner-img {
+    height: 50vh !important;
+  }
+}
+@media screen and (max-width: 639px) {
+  .movie-banner .banner-img {
+    height: 40vh !important;
+  }
+}
+
+.movie-banner .banner-play-icon {
+  display: none;
+}
+
+.movie-banner:hover .banner-play-icon {
+  display: block;
+}
+
+:global(.ant-carousel .slick-next::before) {
+  color: white !important;
+  @apply font-bold;
+  @apply text-5xl;
+}
+
+:global(.ant-carousel .slick-prev::before) {
+  color: white !important;
+  @apply font-bold;
+  @apply text-5xl;
+}
+
+:global(.slick-arrow.slick-next) {
+  z-index: 10;
+  font-size: 30px !important;
+  width: 50px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  right: 30px !important;
+  display: none !important;
+  border-radius: 50% !important;
+  @apply bg-orange-500 !important;
+  @apply opacity-70 !important;
+  @apply transition-all !important;
+  @apply duration-500 !important;
+}
+
+:global(.ant-carousel .slick-next:hover) {
+  @apply bg-transparent !important;
+  transform: translateX(10px) !important;
+}
+
+:global(.slick-arrow.slick-prev) {
+  z-index: 10;
+  font-size: 30px !important;
+  width: 50px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  left: 30px !important;
+  display: none !important;
+  border-radius: 50% !important;
+  @apply bg-orange-500 !important;
+  @apply opacity-70 !important;
+  @apply transition-all !important;
+  @apply duration-500 !important;
+}
+
+:global(.ant-carousel .slick-prev:hover) {
+  @apply bg-transparent !important;
+  transform: translateX(-10px) !important;
+}
+
+:global(.slick-dots.slick-dots-bottom) {
+  align-items: center !important;
+  bottom: 20px !important;
+}
+
+:global(.slick-dots.slick-dots-bottom li) {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 10px !important;
+}
+:global(.slick-dots.slick-dots-bottom li button) {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50%;
+}
+
+:global(.slick-dots.slick-dots-bottom li.slick-active) {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+:global(.slick-dots.slick-dots-bottom li.slick-active button) {
+  @apply bg-orange-500;
+  @apply opacity-100;
+}
+
+@media screen and (min-width: 768px) {
+  :global(.slick-arrow.slick-prev) {
+    display: block !important;
+    left: 50px !important;
+  }
+  :global(.slick-arrow.slick-next) {
+    display: block !important;
+    right: 50px !important;
+  }
+}

@@ -1,0 +1,52 @@
+@import "~antd/dist/antd.css";
+
+::-webkit-scrollbar {
+  width: 10px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 100px;
+  border-radius: 10px;
+  background: #b0b0b0;
+  cursor: pointer;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: rgb(207, 204, 204);
+  border-top: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-table-thead .ant-table-cell,
+.ant-table-tbody .ant-table-row td {
+  border-left: 1px solid rgba(0, 0, 0, 0.5) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-table-thead .ant-table-cell:last-child,
+.ant-table-tbody .ant-table-row td:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-modal-content {
+  height: 100% !important;
+}
+
+.ant-tabs-nav-list .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  @apply bg-orange-500;
+  width: 3px;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab {
+  opacity: 0.5 !important;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab.ant-tabs-tab-active {
+  opacity: 1 !important;
+}

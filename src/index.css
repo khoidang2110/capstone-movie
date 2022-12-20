@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: Roboto, system-ui, sans-serif !important;
+    /* width: unset !important; */
+    /* overflow: unset !important; */
+  }
+
+  :-webkit-any(body) {
+    width: unset !important;
+    overflow: unset !important;
+  }
+
+  input {
+    font-size: 16px !important;
+  }
+}

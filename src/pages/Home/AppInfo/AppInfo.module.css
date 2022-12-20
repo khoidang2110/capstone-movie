@@ -1,0 +1,17 @@
+.app-info {
+  background: url("/public/img/backapp.b46ef3a1.jpg") !important;
+  background-size: cover;
+  height: 600px !important;
+}
+
+.phone-frame {
+  background: url("/public/img/phone-frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-info {
+    height: unset !important;
+  }
+}

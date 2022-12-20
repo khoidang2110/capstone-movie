@@ -1,0 +1,10 @@
+.ant-tabs-nav::-webkit-scrollbar,
+.ant-tabs-nav::-webkit-scrollbar-track,
+.ant-tabs-nav::-webkit-scrollbar-thumb,
+.ant-tabs-nav-operations::-webkit-scrollbar,
+.ant-tabs-nav-operations::-webkit-scrollbar-track,
+.ant-tabs-nav-operations::-webkit-scrollbar-thumb {
+  display: none !important;
+  width: 0px !important;
+  overflow: hidden;
+}
