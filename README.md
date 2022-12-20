@@ -1,10 +1,6 @@
 # DOMAIN: https://capstone-movie.vercel.app/
 
-# DEMO VIDEO: https://www.youtube.com/watch?v=nO1H92HLoXI
-
-# Getting Started with Create React App
-
-## Available Scripts
+# DEMO VIDEO: 
 
 Before running the below command, run this command first:
 
@@ -13,3 +9,5 @@ Before running the below command, run this command first:
 In the project directory, you can run:
 
 ### `npm start`
+account: khoiad
+password: qwe12A!
