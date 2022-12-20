@@ -1,4 +1,4 @@
-# DOMAIN: https://cybersoft-movie-booking.vercel.app
+# DOMAIN: https://capstone-movie.vercel.app/
 
 # DEMO VIDEO: https://www.youtube.com/watch?v=nO1H92HLoXI
 
